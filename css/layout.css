@@ -1,0 +1,150 @@
+.menu>ul>li{
+    display:inline-block
+}
+.menu>ul>li>a{
+    display:block
+}
+.menu>ul{
+    padding:0px;
+    margin: 0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:orangered;
+    text-align:center;
+}
+.menu>ul>li>a{
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger color white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+     color: yellow
+}
+.menu>ul>li{
+    position:relative
+}
+.menu ul ul{
+    position:absolute;
+    display:none
+}
+.menu ul ul a{
+    display:block;
+    z-index: 1;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+    z-index: 1;
+}
+.menu ul ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:rgb(10, 10, 10);
+    box-shadow:0 0 1px gray
+}
+.menu ul ul a{
+    line-height:30px;
+color:orangered;
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+padding:0 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url('../image/BannerWeb-5.png');
+    background-size:100% 100%;
+    height:150px;
+    width: auto;
+    padding-bottom:25%;
+    position: relative;
+    }
+    .company-info>h2{
+        bottom: 30px;
+        left:20px;
+        border-radius: 10px;
+        position: absolute;
+        font-variant: small-caps;
+        text-shadow: 0px 0px 20px yellow;
+        color:white;
+    }
+    .company-info>h3{
+        bottom: 5px;
+        left:10px;
+        border-radius: 10px;
+        position: absolute;
+        font-variant: small-caps;
+        color:yellow;
+        text-decoration: overline orangered;
+    }
+    .top-right{
+        position: absolute;
+        top:0px;
+        right: 0px;
+        width: 350px;
+        border-bottom-left-radius: 25px;
+        background-color: orangered;
+        line-height: 30px;
+        text-align: center;
+    }
+    .top-right>a{
+        color:white;
+        text-decoration: none;
+        font-variant: small-caps;
+    }  
+.container>nav{
+    line-height: 0mm;
+    background-color:rgb(255, 255, 255);
+    color:white;
+    text-align: left;
+    font-variant:small-caps;
+    
+    width: 100%;
+    }
+.container>nav:hover{
+        color: yellow;
+        text-decoration: blue;
+    }
+.container>main{
+    width: 100%;
+}
+.container article{
+    min-height:400px;
+    width:74%;
+    background-color:white;
+    float:left;
+    background-color:rgb(231, 249, 255);
+    }
+.container aside{
+        min-height:400px;
+        width:25%;
+        background-color: lightblue;
+        float:right;
+        text-decoration: none;
+        text-align: left;
+        margin-bottom: 5px;
+        }
+.container>footer{
+     border-top:5px double orangered;
+     line-height:50px;
+     background-color:lightcyan;
+     text-align:center;
+     font-variant:small-caps;
+     clear:both;
+    }
+
+
+
+
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
